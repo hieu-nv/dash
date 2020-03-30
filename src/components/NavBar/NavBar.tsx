@@ -1,13 +1,9 @@
 import React from "react";
-import { Nav, INavLinkGroup } from "office-ui-fabric-react/lib/Nav";
-function _onRenderGroupHeader(group: INavLinkGroup): JSX.Element {
-  return <h3>{group.name}</h3>;
-}
+import { Nav } from "office-ui-fabric-react/lib/Nav";
 
 export function NavBar() {
   return (
     <Nav
-      //   onRenderGroupHeader={_onRenderGroupHeader}
       isOnTop={true}
       ariaLabel="Nav example with custom group headers"
       groups={[

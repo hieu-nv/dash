@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
 
-export const AppContext = createContext({ loading: false });
+export const AppContext = createContext({});
 
 export const useAppContext = () => useContext(AppContext);
